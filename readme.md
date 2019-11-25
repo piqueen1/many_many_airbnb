@@ -3,7 +3,13 @@
 
 Level: Easy
 
-Deliverables
+### Getting Started
+- After you fork/clone this repo and `cd` into it, run `bundle`
+
+- Take a look through the code and files that already exists to orient yourself.
+
+
+#### Deliverables
 
 You are building an app for an Airbnb competitor
 
