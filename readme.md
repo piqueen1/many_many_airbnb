@@ -22,41 +22,41 @@ a trip belongs to a listing and a guest
 Write out the relationships using has_many, belongs_to and has_many_through. Create the necessary methods to connect these classes.
 
 ### Listing
-`Listing#city`
+1. `Listing#city`
 returns a string of the city that listing belongs to
-`Listing#guests`
+1. `Listing#guests`
 returns an array of all guests who have stayed at a listing
-`Listing#trips`
+1. `Listing#trips`
 returns an array of all trips at a listing
-`Listing#trip_count`
+1. `Listing#trip_count`
 returns the number of trips that have been taken to that listing
-`Listing.all`
+1. `Listing.all`
 returns an array of all listings
-`Listing.find_all_by_city(city)`
+1. `Listing.find_all_by_city(city)`
 takes an argument of a city name (as a string) and returns all the listings for that city
-`Listing.most_popular`
+1. `Listing.most_popular`
 finds the listing that has had the most trips
 
 ### Guest
-`Guest#name`
+1. `Guest#name`
 returns the name of the guest
-`Guest#listings`
+1. `Guest#listings`
 returns an array of all listings a guest has stayed at
-`Guest#trips`
+1. `Guest#trips`
 returns an array of all trips a guest has made
-`Guest#trip_count`
+1. `Guest#trip_count`
 returns the number of trips a guest has taken
-`Guest.all`
+1. `Guest.all`
 returns an array of all guests
-`Guest.pro_traveller`
+1. `Guest.pro_traveller`
 returns an array of all guests who have made over 1 trip
-`Guest.find_all_by_name(name)`
+1. `Guest.find_all_by_name(name)`
 takes an argument of a name (as a string), returns the all guests with that name
 
 ### Trip
-`Trip#listing`
+1. `Trip#listing`
 returns the listing object for the trip
-`Trip#guest`
+1. `Trip#guest`
 returns the guest object for the trip
-`Trip.all`
+1.`Trip.all`
 returns an array of all trips
